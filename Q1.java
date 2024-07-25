@@ -63,6 +63,16 @@ public class Q1{
             System.out.print(part + " ");
         }
         System.out.println();
+	
 
-    }
-}
+	//String Trimming
+
+        System.out.println("enter a string with leading and trailing spaces:");
+        String sent= input.nextLine();
+
+        String trimsent= sent.trim();
+
+        System.out.println("the trimmednversion is: "+trimsent);
+
+
+   }}
